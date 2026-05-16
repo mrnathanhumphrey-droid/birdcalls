@@ -1,0 +1,43 @@
+# Secrets — NEVER commit
+.env
+.env.*
+*.key
+*_api_key*
+
+# Audio data (large, fetchable from APIs)
+recordings/xeno_canto/*.mp3
+recordings/xeno_canto/*.wav
+recordings/macaulay/*.wav
+recordings/macaulay/*.mp3
+recordings/*/*.flac
+recordings/*/*.ogg
+
+# Acoustic features (regeneratable)
+acoustic_features/*.parquet
+acoustic_features/*.npy
+
+# eBird range data (large)
+range_data/ebird/*.txt
+range_data/ebird/*.csv.gz
+
+# BCR shapefile (5MB, re-downloadable from USDA Forest Service RDS-2021-0001)
+range_data/bcr_shapefile/
+
+# External tools (cloned/forked)
+_external/
+
+# Analysis: Stan exes + chain CSVs + full posteriors
+analysis/*.exe
+analysis/stan_csvs/
+analysis/production_*/posterior_full.parquet
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
