@@ -16,6 +16,22 @@
 
 **Sainburg-2020 industry-baseline head-to-head:** Our partial-pooling (sp+BCR+cell) extracts **+4.7 pp more spectral variance and +6.5 pp more structural variance** than unsupervised UMAP+HDBSCAN clusters alone. The cell structure carries information beyond what the standard unsupervised pipeline finds.
 
+## Open lines of study
+
+This repo wraps the substantive Phase 1 + Phase 2 analysis. Several axes remain queued / deferred and are documented here so anyone reading can see what's planned and contribute or pre-empt:
+
+1. **Canonical Macaulay Library source-swap** — closes the 3rd pre-registered robustness axis with the canonical source (substitute via recordist-source split within xeno-canto already PASSED). Free for research, gated by Cornell Lab research-access application. Same institutional-access pattern as NVDRS for the gun-violence substrate. Will close when access lands.
+
+2. **3D interactive visualization** — SoundPlot's Three.js dashboard is unused. ~1 hour of work to spin up SoundPlot's Flask + Three.js app pointed at our extracted features, would render the 1,344 recordings in BirdNET embedding-space colored by (species × BCR × dialect_cluster) cell membership. Useful for paper figures and public demo. Not load-bearing for the methodology claim.
+
+3. **Structural reparameterization** — Arm 2 structural fit had 4.8% divergent transitions (borderline). A tighter half-normal prior on σ_cell + non-centered cell parameterization would clear the divergences. Won't change the null disposition (confirmed across 3 axes already) but cleans up the diagnostic record.
+
+4. **Cross-species etymology pivot** — the original Phase 2 vision: with dialect clusters established per-species, compare cluster structure across species (e.g., do white-crowned sparrow dialects partition the spectral space the same way song sparrow dialects do?). Methodological extension of the corpus framework into cross-vocal-learning-system territory. Deferred to a future Phase 3 or a separate substrate.
+
+5. **Paired bird × human dialect** — original framing of the substrate vision (joint test of partial-pooling on bioacoustic dialect cells + human dialect cells, looking for universal residual structure across vocal-learning systems). Deferred until human-dialect data infrastructure is ready.
+
+If you're working on any of these and would like to coordinate, the repo author is reachable via the GitHub profile.
+
 **Geographic frame:** CONUS + North America (continental-USA breeding species and migrants, plus contiguous Canadian/Mexican range overlap where relevant for cells).
 
 ## Substrate goal
