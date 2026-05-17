@@ -1,0 +1,15 @@
+{
+  "outcome": "d_spectral_niche",
+  "frac_cell_mean": 0.2091656067,
+  "frac_cell_q025": 0.06805512,
+  "frac_cell_q975": 0.408898775,
+  "ci_clean_positive": true,
+  "passes_5pct": true,
+  "frac_additive_mean": 0.21886206932189248,
+  "sigma_y_mean": 0.7945789355,
+  "sigma_cell_mean": 0.4741783365,
+  "N": 499,
+  "S": 4,
+  "communities": 84,
+  "C": 113
+}

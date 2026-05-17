@@ -1,0 +1,15 @@
+{
+  "outcome": "d_spectral",
+  "frac_cell_mean": 0.19059700922500003,
+  "frac_cell_q025": 0.13073274999999998,
+  "frac_cell_q975": 0.2513018000000001,
+  "ci_clean_positive": true,
+  "passes_5pct": true,
+  "frac_additive_mean": 0.013425587973777424,
+  "sigma_y_mean": 0.9178233519999999,
+  "sigma_cell_mean": 0.45039803975,
+  "N": 1286,
+  "S": 4,
+  "B": 32,
+  "C": 182
+}

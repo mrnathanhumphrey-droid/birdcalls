@@ -4,7 +4,9 @@
 
 **Author:** Nathan Humphrey
 
-**Status:** PROJECT SCAFFOLDED. Pre-registration in draft (`notes/PRE_REGISTRATION_DRAFT.md`). Will LOCK via commit-hash timestamp BEFORE any acoustic-feature or outcome analysis, per the discipline established in the gun-violence substrate.
+**Status:** Pre-registration LOCKED at commit `aa38aea` (2026-05-16). Phase 1 PARTIAL_REPLICATION on both arms — spectral PASS, structural FAIL. See `analysis/REPORT_PHASE1_2026_05_16.md`.
+
+**Headline:** Cell partial-pooling on BirdNET-embedding distance recovers **19% of variance** in dialect-geography (Arm 1) and **21%** in acoustic-niche-partition (Arm 2) beyond additive baselines, with CI clean positive on both. Structural/syntactic outcomes only recover 3-4% — below pre-reg 5% threshold. **Spectral dialect/niche signal is real; structural-syntax signal is not** at the resolution we tested. Consistent with Marler's classical dialect work (populations differ in *which syllables*, not in *how syllables are combined*).
 
 **Geographic frame:** CONUS + North America (continental-USA breeding species and migrants, plus contiguous Canadian/Mexican range overlap where relevant for cells).
 
