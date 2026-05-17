@@ -13,7 +13,8 @@ The Phase 1 spectral PASS (frac_cell = 0.191 on Arm 1) **survives 2 of 3 robustn
 | **Phase 1 main** (BCR partition) | 0.191 [0.131, 0.251] ✓ PASS | 0.032 [0.004, 0.069] ✗ FAIL |
 | **Sample resampling** (5-fold, seed 20260616) | **5/5 folds PASS** (range 0.160–0.197) | 0/5 folds PASS (range 0.023–0.046) |
 | **Geography refinement** (L3 ecoregion, 55 ecoregions) | **0.217 [0.149, 0.285] ✓ PASS** | 0.037 [0.003, 0.080] ✗ FAIL |
-| **Source replication** (Macaulay) | DEFERRED — needs Cornell API key | DEFERRED |
+| **Source replication** (canonical: Macaulay) | DEFERRED — needs Cornell research access | DEFERRED |
+| **Source replication** (substitute: recordist-source split) | **TOP: 0.265 PASS / LONGTAIL: 0.152 PASS** | TOP: 4.7% FAIL / LONGTAIL: 3.4% FAIL |
 | **Sainburg-2020 head-to-head** | **+4.7 pp over unsupervised baseline** | +6.5 pp (but baseline is 0.6%, ours 7.1%) |
 
 ## Phase 2 axis-by-axis results
@@ -57,9 +58,26 @@ Design: 1,255 / 1,344 recordings matched to ecoregion (93.4%); 1,110 in non-sing
 
 This is the analog of gun violence v0.6 BG-refinement, with the OPPOSITE result on the load-bearing finding: where sundown failed at BG refinement (aggregation-sensitive), the bird-song spectral finding GAINS strength at finer geography. The signal is real at finer resolution.
 
-### Axis 3: Source replication (Macaulay) — DEFERRED
+### Axis 3: Source replication
 
-Requires Cornell Lab API key (pending). Pre-registered as the 3rd robustness axis. Will close when key + subset fetch land.
+#### 3a. Macaulay source-swap (canonical) — DEFERRED
+
+Requires Cornell Lab research-access application (free for research, gated by institutional vetting). Pre-registered as the canonical 3rd robustness axis. Will close when access + subset fetch land.
+
+#### 3b. Recordist-source split within xeno-canto (substitute) — PASS
+
+Logged as Deviation Entry 001 in `notes/DEVIATION_LOG.md`. While Macaulay access is pending, we ran the closest available substitute on our existing data: stratify the 1,344 xeno-canto recordings by recordist (`rec` field) into top-16-recordists (account for ~50% of recordings, n=626) vs long-tail (n=604). Refit Arm 1 model on each subgroup. Same threat model as Macaulay swap — tests whether the signal is a single-recordist-equipment artifact.
+
+**Result:**
+
+| Subgroup | Spectral frac_cell | Structural frac_cell |
+|---|---|---|
+| Top 16 recordists | **0.265** [0.176, 0.354] ✓ PASS | 0.047 [0.004, 0.109] ✗ |
+| Long-tail recordists | **0.152** [0.070, 0.243] ✓ PASS | 0.034 [0.000, 0.091] ✗ |
+
+**Spectral signal PASSES in both subgroups.** The signal isn't an artifact of any one recordist's equipment, microphone, or recording style. Top-recordist subset gives stronger signal (likely higher within-cell N → tighter cell estimates), but BOTH subsets independently pass the locked 5% + CI-clean rule.
+
+Structural FAILS in both subgroups, consistent with the pattern across all robustness axes.
 
 ### Industry-baseline head-to-head: Sainburg et al. 2020 *PLOS Comp Bio*
 
@@ -87,10 +105,11 @@ This is the methodological contribution claim, now empirically tested: the corpu
 |---|---|---|
 | Sample resampling (5-fold) | STRONG_REPLICATION (5/5) | 0/5 PASS |
 | Geographic refinement (L3 ecoregion) | PASS, +0.026 | sub-threshold |
-| Source replication (Macaulay) | deferred | deferred |
+| Source replication (canonical: Macaulay) | DEFERRED | DEFERRED |
+| Source replication (substitute: recordist split) | **PASS in both subgroups** | sub-threshold in both |
 | Industry-baseline (Sainburg head-to-head) | OURS +4.7 pp over unsupervised | OURS +6.5 pp over unsupervised |
 
-**Joint Phase 2 verdict on Arm 1 spectral: 2/3 axes complete, both PASS + outperforms industry baseline. Source-replication axis pending.**
+**Joint Phase 2 verdict on Arm 1 spectral: 3/3 axes PASS with the substitute closing axis 3; canonical Macaulay swap still queued. Outperforms industry baseline. Structural null confirmed across all 3 axes.**
 
 The structural null is now confirmed across both available robustness axes — not a sampler artifact, not a BCR-specific quirk. **Structural-syntactic dialect signal is genuinely below the pre-reg 5% threshold at this resolution.**
 

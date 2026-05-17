@@ -1,0 +1,58 @@
+{
+  "top": {
+    "d_spectral": {
+      "group": "top",
+      "outcome": "d_spectral",
+      "n": 626,
+      "S": 4,
+      "B": 25,
+      "C": 105,
+      "frac_cell_mean": 0.264958145725,
+      "frac_cell_q025": 0.17621085,
+      "frac_cell_q975": 0.3541682,
+      "passes_5pct": true,
+      "wall_sec": 2.9825069904327393
+    },
+    "d_structural": {
+      "group": "top",
+      "outcome": "d_structural",
+      "n": 626,
+      "S": 4,
+      "B": 25,
+      "C": 105,
+      "frac_cell_mean": 0.046625273075274996,
+      "frac_cell_q025": 0.0039386035,
+      "frac_cell_q975": 0.109484,
+      "passes_5pct": false,
+      "wall_sec": 2.8367040157318115
+    }
+  },
+  "longtail": {
+    "d_spectral": {
+      "group": "longtail",
+      "outcome": "d_spectral",
+      "n": 604,
+      "S": 4,
+      "B": 30,
+      "C": 126,
+      "frac_cell_mean": 0.15156289695,
+      "frac_cell_q025": 0.06986049500000001,
+      "frac_cell_q975": 0.24289997500000002,
+      "passes_5pct": true,
+      "wall_sec": 2.5661354064941406
+    },
+    "d_structural": {
+      "group": "longtail",
+      "outcome": "d_structural",
+      "n": 604,
+      "S": 4,
+      "B": 30,
+      "C": 126,
+      "frac_cell_mean": 0.0341975996291075,
+      "frac_cell_q025": 0.00041097745,
+      "frac_cell_q975": 0.09086521000000002,
+      "passes_5pct": false,
+      "wall_sec": 2.332808256149292
+    }
+  }
+}

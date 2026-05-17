@@ -8,10 +8,11 @@
 
 **Phase 1 headline:** Cell partial-pooling on BirdNET-embedding distance recovers **19% of variance** in dialect-geography (Arm 1) and **21%** in acoustic-niche-partition (Arm 2). Structural/syntactic outcomes only recover 3-4% — below pre-reg 5% threshold. Bioacoustic differentiation operates primarily on spectral position (which syllables), not syntactic structure (how syllables are combined).
 
-**Phase 2 robustness on Arm 1 spectral:**
+**Phase 2 robustness on Arm 1 spectral (3/3 axes PASS):**
 - Sample resampling (5-fold cell-stratified, seed 20260616): **5/5 folds PASS** (range 16.0-19.7%)
 - Geographic refinement (BCR → EPA L3 ecoregion, 55 ecoregions): **PASS, frac_cell = 0.217** (slightly stronger than BCR)
-- Source replication (Macaulay): deferred pending Cornell API key
+- Source replication, recordist-source split (substitute for Macaulay swap, see `notes/DEVIATION_LOG.md` Entry 001): **TOP recordists 0.265 PASS / LONGTAIL recordists 0.152 PASS** — signal is not a recordist-equipment artifact
+- Source replication, canonical Macaulay swap: still deferred pending Cornell Lab research access
 
 **Sainburg-2020 industry-baseline head-to-head:** Our partial-pooling (sp+BCR+cell) extracts **+4.7 pp more spectral variance and +6.5 pp more structural variance** than unsupervised UMAP+HDBSCAN clusters alone. The cell structure carries information beyond what the standard unsupervised pipeline finds.
 
