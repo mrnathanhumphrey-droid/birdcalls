@@ -4,9 +4,16 @@
 
 **Author:** Nathan Humphrey
 
-**Status:** Pre-registration LOCKED at commit `aa38aea` (2026-05-16). Phase 1 PARTIAL_REPLICATION on both arms — spectral PASS, structural FAIL. See `analysis/REPORT_PHASE1_2026_05_16.md`.
+**Status:** Pre-registration LOCKED at commit `aa38aea` (2026-05-16). Phase 1 PARTIAL_REPLICATION on both arms — spectral PASS, structural FAIL. **Phase 2 (2026-05-17): spectral PASS survives 2/3 robustness axes + outperforms Sainburg-2020 unsupervised baseline by +4.7 pp.**
 
-**Headline:** Cell partial-pooling on BirdNET-embedding distance recovers **19% of variance** in dialect-geography (Arm 1) and **21%** in acoustic-niche-partition (Arm 2) beyond additive baselines, with CI clean positive on both. Structural/syntactic outcomes only recover 3-4% — below pre-reg 5% threshold. **Spectral dialect/niche signal is real; structural-syntax signal is not** at the resolution we tested. Consistent with Marler's classical dialect work (populations differ in *which syllables*, not in *how syllables are combined*).
+**Phase 1 headline:** Cell partial-pooling on BirdNET-embedding distance recovers **19% of variance** in dialect-geography (Arm 1) and **21%** in acoustic-niche-partition (Arm 2). Structural/syntactic outcomes only recover 3-4% — below pre-reg 5% threshold. Bioacoustic differentiation operates primarily on spectral position (which syllables), not syntactic structure (how syllables are combined).
+
+**Phase 2 robustness on Arm 1 spectral:**
+- Sample resampling (5-fold cell-stratified, seed 20260616): **5/5 folds PASS** (range 16.0-19.7%)
+- Geographic refinement (BCR → EPA L3 ecoregion, 55 ecoregions): **PASS, frac_cell = 0.217** (slightly stronger than BCR)
+- Source replication (Macaulay): deferred pending Cornell API key
+
+**Sainburg-2020 industry-baseline head-to-head:** Our partial-pooling (sp+BCR+cell) extracts **+4.7 pp more spectral variance and +6.5 pp more structural variance** than unsupervised UMAP+HDBSCAN clusters alone. The cell structure carries information beyond what the standard unsupervised pipeline finds.
 
 **Geographic frame:** CONUS + North America (continental-USA breeding species and migrants, plus contiguous Canadian/Mexican range overlap where relevant for cells).
 

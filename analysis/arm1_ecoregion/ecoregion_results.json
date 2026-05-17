@@ -1,0 +1,26 @@
+{
+  "d_spectral": {
+    "outcome": "d_spectral",
+    "n": 1110,
+    "S": 4,
+    "ecoregions": 55,
+    "C": 220,
+    "frac_cell_mean": 0.21736159,
+    "frac_cell_q025": 0.149203875,
+    "frac_cell_q975": 0.28515527500000004,
+    "passes_5pct": true,
+    "ci_clean_pos": true
+  },
+  "d_structural": {
+    "outcome": "d_structural",
+    "n": 1110,
+    "S": 4,
+    "ecoregions": 55,
+    "C": 220,
+    "frac_cell_mean": 0.037365702499305,
+    "frac_cell_q025": 0.0027276595,
+    "frac_cell_q975": 0.08005315250000002,
+    "passes_5pct": false,
+    "ci_clean_pos": true
+  }
+}
