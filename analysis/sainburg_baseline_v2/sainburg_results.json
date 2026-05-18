@@ -1,0 +1,30 @@
+{
+  "d_spectral": {
+    "outcome": "d_spectral",
+    "sainburg_frac_dc_mean": 0.187974873025,
+    "sainburg_frac_dc_q025": 0.133092525,
+    "sainburg_frac_dc_q975": 0.24848725000000002,
+    "ours_frac_cell_mean": 0.19766766274999997,
+    "ours_frac_cell_q025": 0.132183125,
+    "ours_frac_cell_q975": 0.265363475,
+    "ours_frac_baseline_mean": 0.0247284148293825,
+    "ours_total_explained_mean": 0.2223960775793825,
+    "ours_total_explained_q025": 0.15657912000000002,
+    "ours_total_explained_q975": 0.29569300000000004,
+    "delta_ours_minus_sainburg": 0.03442120455438252
+  },
+  "d_structural": {
+    "outcome": "d_structural",
+    "sainburg_frac_dc_mean": 0.0546754350409,
+    "sainburg_frac_dc_q025": 0.013243005,
+    "sainburg_frac_dc_q975": 0.110430025,
+    "ours_frac_cell_mean": 0.07695289928525,
+    "ours_frac_cell_q025": 0.02432185,
+    "ours_frac_cell_q975": 0.13654725,
+    "ours_frac_baseline_mean": 0.0207069725787415,
+    "ours_total_explained_mean": 0.0976598718639915,
+    "ours_total_explained_q025": 0.04940045325,
+    "ours_total_explained_q975": 0.1588814885,
+    "delta_ours_minus_sainburg": 0.0429844368230915
+  }
+}

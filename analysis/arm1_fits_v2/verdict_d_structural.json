@@ -1,0 +1,15 @@
+{
+  "outcome": "d_structural",
+  "frac_cell_mean": 0.07808811197925,
+  "frac_cell_q025": 0.023827975,
+  "frac_cell_q975": 0.13967370000000007,
+  "ci_clean_positive": true,
+  "passes_5pct": false,
+  "frac_additive_mean": 0.020210871222,
+  "sigma_y_mean": 0.9620934245,
+  "sigma_cell_mean": 0.280211407775,
+  "N": 1126,
+  "S": 4,
+  "B": 32,
+  "C": 127
+}

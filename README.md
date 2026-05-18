@@ -6,6 +6,8 @@
 
 **Status:** Pre-registration LOCKED at commit `aa38aea` (2026-05-16). Phase 1 PARTIAL_REPLICATION on both arms — spectral PASS, structural FAIL. **Phase 2 (2026-05-17): spectral PASS survives 2/3 robustness axes + outperforms Sainburg-2020 unsupervised baseline by +4.7 pp.**
 
+> **⚠️ 2026-05-18 WALK-BACK:** A bug was discovered in `extract_features_birdnet.py` (used through commit `04331d6`): it stored `result.embeddings_masked` (BOOL validity mask) instead of `result.embeddings` (FLOAT32 actual data). Every "1024-dim embedding" was a single scalar broadcast across all dims. **Phase 1/2 results below were fit on the broken embeddings.** A full revalidation on real 1024-dim embeddings is in `notes/WALK_BACK_2026_05_18.md`. **Headline disposition (PARTIAL — spectral PASS, structural FAIL) is reproducible**, but specifics that don't reproduce: the "14 dialect clusters" specific finding (v1↔v2 ARI ≈ 0, partition is essentially independent), the recordist-split LONGTAIL PASS (fails on v2), and the +4.7pp Sainburg margin (becomes +3.4pp). Numbers in the headline below are from the broken-embedding fit; see WALK_BACK for the corrected versions.
+
 **Phase 1 headline:** Cell partial-pooling on BirdNET-embedding distance recovers **19% of variance** in dialect-geography (Arm 1) and **21%** in acoustic-niche-partition (Arm 2). Structural/syntactic outcomes only recover 3-4% — below pre-reg 5% threshold. Bioacoustic differentiation operates primarily on spectral position (which syllables), not syntactic structure (how syllables are combined).
 
 **Phase 2 robustness on Arm 1 spectral (3/3 axes PASS):**
