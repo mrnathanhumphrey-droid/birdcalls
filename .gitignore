@@ -41,3 +41,9 @@ __pycache__/
 # OS
 .DS_Store
 Thumbs.db
+
+# Rhythm-accent investigation 2026-05-18 (negative result)
+viz/renders/                       # 64MB of decorative PNGs
+viz/audio_for_trajectories/        # redundant with recordings/
+viz/*.blend                        # binary iteration artifacts
+watchdog_birdnet*.log

@@ -1,0 +1,1102 @@
+{
+  "test": "Mann-Whitney U one-sided (within < between) on DTW distances",
+  "n_trajectories": 15,
+  "n_pairs_within": 30,
+  "n_pairs_between": 75,
+  "within_stats": {
+    "median": 0.06657119659883376,
+    "mean": 0.09569060068804482,
+    "std": 0.05576545070593542,
+    "min": 0.04225926059937566,
+    "max": 0.24877840056839193
+  },
+  "between_stats": {
+    "median": 0.07873298328346359,
+    "mean": 0.09588429311359752,
+    "std": 0.04579876270851931,
+    "min": 0.044376797248873286,
+    "max": 0.2628441570720943
+  },
+  "overall_mannwhitney_u": 988.0,
+  "overall_p_value": 0.16646445275359273,
+  "overall_rank_biserial_r": 0.12177777777777776,
+  "per_bcr": {
+    "COASTAL_CALIFORNIA": {
+      "n_within": 10,
+      "n_between": 50,
+      "median_within": 0.06992366234820484,
+      "median_between": 0.07610725279605791,
+      "p_value": 0.4175084622126792,
+      "rank_biserial_r": 0.04400000000000004
+    },
+    "SONORAN_AND_MOJAVE_DESERTS": {
+      "n_within": 10,
+      "n_between": 50,
+      "median_within": 0.05285698490796736,
+      "median_between": 0.0733319277011397,
+      "p_value": 0.0001851083699989902,
+      "rank_biserial_r": 0.72
+    },
+    "NEW_ENGLAND/MID-ATLANTIC_COAST": {
+      "n_within": 10,
+      "n_between": 50,
+      "median_within": 0.1740176608594587,
+      "median_between": 0.08722690777148473,
+      "p_value": 0.985803399720575,
+      "rank_biserial_r": -0.43999999999999995
+    }
+  },
+  "pairs": [
+    {
+      "i": 0,
+      "j": 1,
+      "id_i": "1089603",
+      "id_j": "79791",
+      "bcr_i": "COASTAL_CALIFORNIA",
+      "bcr_j": "COASTAL_CALIFORNIA",
+      "same_bcr": true,
+      "dtw": 0.06531173778911695
+    },
+    {
+      "i": 0,
+      "j": 2,
+      "id_i": "1089603",
+      "id_j": "125704",
+      "bcr_i": "COASTAL_CALIFORNIA",
+      "bcr_j": "COASTAL_CALIFORNIA",
+      "same_bcr": true,
+      "dtw": 0.1600240241631663
+    },
+    {
+      "i": 0,
+      "j": 3,
+      "id_i": "1089603",
+      "id_j": "225618",
+      "bcr_i": "COASTAL_CALIFORNIA",
+      "bcr_j": "COASTAL_CALIFORNIA",
+      "same_bcr": true,
+      "dtw": 0.053020885766208115
+    },
+    {
+      "i": 0,
+      "j": 4,
+      "id_i": "1089603",
+      "id_j": "408093",
+      "bcr_i": "COASTAL_CALIFORNIA",
+      "bcr_j": "COASTAL_CALIFORNIA",
+      "same_bcr": true,
+      "dtw": 0.09729036801482897
+    },
+    {
+      "i": 0,
+      "j": 5,
+      "id_i": "1089603",
+      "id_j": "591818",
+      "bcr_i": "COASTAL_CALIFORNIA",
+      "bcr_j": "SONORAN_AND_MOJAVE_DESERTS",
+      "same_bcr": false,
+      "dtw": 0.06176771603414985
+    },
+    {
+      "i": 0,
+      "j": 6,
+      "id_i": "1089603",
+      "id_j": "121701",
+      "bcr_i": "COASTAL_CALIFORNIA",
+      "bcr_j": "SONORAN_AND_MOJAVE_DESERTS",
+      "same_bcr": false,
+      "dtw": 0.051733259219150375
+    },
+    {
+      "i": 0,
+      "j": 7,
+      "id_i": "1089603",
+      "id_j": "225617",
+      "bcr_i": "COASTAL_CALIFORNIA",
+      "bcr_j": "SONORAN_AND_MOJAVE_DESERTS",
+      "same_bcr": false,
+      "dtw": 0.05312405342029711
+    },
+    {
+      "i": 0,
+      "j": 8,
+      "id_i": "1089603",
+      "id_j": "283691",
+      "bcr_i": "COASTAL_CALIFORNIA",
+      "bcr_j": "SONORAN_AND_MOJAVE_DESERTS",
+      "same_bcr": false,
+      "dtw": 0.05601464605003387
+    },
+    {
+      "i": 0,
+      "j": 9,
+      "id_i": "1089603",
+      "id_j": "542596",
+      "bcr_i": "COASTAL_CALIFORNIA",
+      "bcr_j": "SONORAN_AND_MOJAVE_DESERTS",
+      "same_bcr": false,
+      "dtw": 0.051266193635534626
+    },
+    {
+      "i": 0,
+      "j": 10,
+      "id_i": "1089603",
+      "id_j": "461612",
+      "bcr_i": "COASTAL_CALIFORNIA",
+      "bcr_j": "NEW_ENGLAND/MID-ATLANTIC_COAST",
+      "same_bcr": false,
+      "dtw": 0.07024040464585105
+    },
+    {
+      "i": 0,
+      "j": 11,
+      "id_i": "1089603",
+      "id_j": "433075",
+      "bcr_i": "COASTAL_CALIFORNIA",
+      "bcr_j": "NEW_ENGLAND/MID-ATLANTIC_COAST",
+      "same_bcr": false,
+      "dtw": 0.14227744987379098
+    },
+    {
+      "i": 0,
+      "j": 12,
+      "id_i": "1089603",
+      "id_j": "381583",
+      "bcr_i": "COASTAL_CALIFORNIA",
+      "bcr_j": "NEW_ENGLAND/MID-ATLANTIC_COAST",
+      "same_bcr": false,
+      "dtw": 0.08286947214329175
+    },
+    {
+      "i": 0,
+      "j": 13,
+      "id_i": "1089603",
+      "id_j": "190476",
+      "bcr_i": "COASTAL_CALIFORNIA",
+      "bcr_j": "NEW_ENGLAND/MID-ATLANTIC_COAST",
+      "same_bcr": false,
+      "dtw": 0.15933120567597542
+    },
+    {
+      "i": 0,
+      "j": 14,
+      "id_i": "1089603",
+      "id_j": "190448",
+      "bcr_i": "COASTAL_CALIFORNIA",
+      "bcr_j": "NEW_ENGLAND/MID-ATLANTIC_COAST",
+      "same_bcr": false,
+      "dtw": 0.07010829346943966
+    },
+    {
+      "i": 1,
+      "j": 2,
+      "id_i": "79791",
+      "id_j": "125704",
+      "bcr_i": "COASTAL_CALIFORNIA",
+      "bcr_j": "COASTAL_CALIFORNIA",
+      "same_bcr": true,
+      "dtw": 0.07391972166363088
+    },
+    {
+      "i": 1,
+      "j": 3,
+      "id_i": "79791",
+      "id_j": "225618",
+      "bcr_i": "COASTAL_CALIFORNIA",
+      "bcr_j": "COASTAL_CALIFORNIA",
+      "same_bcr": true,
+      "dtw": 0.06761997954223593
+    },
+    {
+      "i": 1,
+      "j": 4,
+      "id_i": "79791",
+      "id_j": "408093",
+      "bcr_i": "COASTAL_CALIFORNIA",
+      "bcr_j": "COASTAL_CALIFORNIA",
+      "same_bcr": true,
+      "dtw": 0.06552241365543159
+    },
+    {
+      "i": 1,
+      "j": 5,
+      "id_i": "79791",
+      "id_j": "591818",
+      "bcr_i": "COASTAL_CALIFORNIA",
+      "bcr_j": "SONORAN_AND_MOJAVE_DESERTS",
+      "same_bcr": false,
+      "dtw": 0.04787048247655378
+    },
+    {
+      "i": 1,
+      "j": 6,
+      "id_i": "79791",
+      "id_j": "121701",
+      "bcr_i": "COASTAL_CALIFORNIA",
+      "bcr_j": "SONORAN_AND_MOJAVE_DESERTS",
+      "same_bcr": false,
+      "dtw": 0.06377206674586094
+    },
+    {
+      "i": 1,
+      "j": 7,
+      "id_i": "79791",
+      "id_j": "225617",
+      "bcr_i": "COASTAL_CALIFORNIA",
+      "bcr_j": "SONORAN_AND_MOJAVE_DESERTS",
+      "same_bcr": false,
+      "dtw": 0.05400586836250483
+    },
+    {
+      "i": 1,
+      "j": 8,
+      "id_i": "79791",
+      "id_j": "283691",
+      "bcr_i": "COASTAL_CALIFORNIA",
+      "bcr_j": "SONORAN_AND_MOJAVE_DESERTS",
+      "same_bcr": false,
+      "dtw": 0.06794883375421339
+    },
+    {
+      "i": 1,
+      "j": 9,
+      "id_i": "79791",
+      "id_j": "542596",
+      "bcr_i": "COASTAL_CALIFORNIA",
+      "bcr_j": "SONORAN_AND_MOJAVE_DESERTS",
+      "same_bcr": false,
+      "dtw": 0.06375262527107162
+    },
+    {
+      "i": 1,
+      "j": 10,
+      "id_i": "79791",
+      "id_j": "461612",
+      "bcr_i": "COASTAL_CALIFORNIA",
+      "bcr_j": "NEW_ENGLAND/MID-ATLANTIC_COAST",
+      "same_bcr": false,
+      "dtw": 0.053238029605490934
+    },
+    {
+      "i": 1,
+      "j": 11,
+      "id_i": "79791",
+      "id_j": "433075",
+      "bcr_i": "COASTAL_CALIFORNIA",
+      "bcr_j": "NEW_ENGLAND/MID-ATLANTIC_COAST",
+      "same_bcr": false,
+      "dtw": 0.06767262163168901
+    },
+    {
+      "i": 1,
+      "j": 12,
+      "id_i": "79791",
+      "id_j": "381583",
+      "bcr_i": "COASTAL_CALIFORNIA",
+      "bcr_j": "NEW_ENGLAND/MID-ATLANTIC_COAST",
+      "same_bcr": false,
+      "dtw": 0.09072848736769693
+    },
+    {
+      "i": 1,
+      "j": 13,
+      "id_i": "79791",
+      "id_j": "190476",
+      "bcr_i": "COASTAL_CALIFORNIA",
+      "bcr_j": "NEW_ENGLAND/MID-ATLANTIC_COAST",
+      "same_bcr": false,
+      "dtw": 0.1916038209284117
+    },
+    {
+      "i": 1,
+      "j": 14,
+      "id_i": "79791",
+      "id_j": "190448",
+      "bcr_i": "COASTAL_CALIFORNIA",
+      "bcr_j": "NEW_ENGLAND/MID-ATLANTIC_COAST",
+      "same_bcr": false,
+      "dtw": 0.08949424029050622
+    },
+    {
+      "i": 2,
+      "j": 3,
+      "id_i": "125704",
+      "id_j": "225618",
+      "bcr_i": "COASTAL_CALIFORNIA",
+      "bcr_j": "COASTAL_CALIFORNIA",
+      "same_bcr": true,
+      "dtw": 0.1263188633241082
+    },
+    {
+      "i": 2,
+      "j": 4,
+      "id_i": "125704",
+      "id_j": "408093",
+      "bcr_i": "COASTAL_CALIFORNIA",
+      "bcr_j": "COASTAL_CALIFORNIA",
+      "same_bcr": true,
+      "dtw": 0.06293940977009238
+    },
+    {
+      "i": 2,
+      "j": 5,
+      "id_i": "125704",
+      "id_j": "591818",
+      "bcr_i": "COASTAL_CALIFORNIA",
+      "bcr_j": "SONORAN_AND_MOJAVE_DESERTS",
+      "same_bcr": false,
+      "dtw": 0.10126210238183232
+    },
+    {
+      "i": 2,
+      "j": 6,
+      "id_i": "125704",
+      "id_j": "121701",
+      "bcr_i": "COASTAL_CALIFORNIA",
+      "bcr_j": "SONORAN_AND_MOJAVE_DESERTS",
+      "same_bcr": false,
+      "dtw": 0.12699568200493466
+    },
+    {
+      "i": 2,
+      "j": 7,
+      "id_i": "125704",
+      "id_j": "225617",
+      "bcr_i": "COASTAL_CALIFORNIA",
+      "bcr_j": "SONORAN_AND_MOJAVE_DESERTS",
+      "same_bcr": false,
+      "dtw": 0.12902216424358584
+    },
+    {
+      "i": 2,
+      "j": 8,
+      "id_i": "125704",
+      "id_j": "283691",
+      "bcr_i": "COASTAL_CALIFORNIA",
+      "bcr_j": "SONORAN_AND_MOJAVE_DESERTS",
+      "same_bcr": false,
+      "dtw": 0.15781786821788116
+    },
+    {
+      "i": 2,
+      "j": 9,
+      "id_i": "125704",
+      "id_j": "542596",
+      "bcr_i": "COASTAL_CALIFORNIA",
+      "bcr_j": "SONORAN_AND_MOJAVE_DESERTS",
+      "same_bcr": false,
+      "dtw": 0.13598894130081518
+    },
+    {
+      "i": 2,
+      "j": 10,
+      "id_i": "125704",
+      "id_j": "461612",
+      "bcr_i": "COASTAL_CALIFORNIA",
+      "bcr_j": "NEW_ENGLAND/MID-ATLANTIC_COAST",
+      "same_bcr": false,
+      "dtw": 0.08983115299619243
+    },
+    {
+      "i": 2,
+      "j": 11,
+      "id_i": "125704",
+      "id_j": "433075",
+      "bcr_i": "COASTAL_CALIFORNIA",
+      "bcr_j": "NEW_ENGLAND/MID-ATLANTIC_COAST",
+      "same_bcr": false,
+      "dtw": 0.06171074659161511
+    },
+    {
+      "i": 2,
+      "j": 12,
+      "id_i": "125704",
+      "id_j": "381583",
+      "bcr_i": "COASTAL_CALIFORNIA",
+      "bcr_j": "NEW_ENGLAND/MID-ATLANTIC_COAST",
+      "same_bcr": false,
+      "dtw": 0.16705500225209738
+    },
+    {
+      "i": 2,
+      "j": 13,
+      "id_i": "125704",
+      "id_j": "190476",
+      "bcr_i": "COASTAL_CALIFORNIA",
+      "bcr_j": "NEW_ENGLAND/MID-ATLANTIC_COAST",
+      "same_bcr": false,
+      "dtw": 0.2628441570720943
+    },
+    {
+      "i": 2,
+      "j": 14,
+      "id_i": "125704",
+      "id_j": "190448",
+      "bcr_i": "COASTAL_CALIFORNIA",
+      "bcr_j": "NEW_ENGLAND/MID-ATLANTIC_COAST",
+      "same_bcr": false,
+      "dtw": 0.21916408753213462
+    },
+    {
+      "i": 3,
+      "j": 4,
+      "id_i": "225618",
+      "id_j": "408093",
+      "bcr_i": "COASTAL_CALIFORNIA",
+      "bcr_j": "COASTAL_CALIFORNIA",
+      "same_bcr": true,
+      "dtw": 0.07222734515417374
+    },
+    {
+      "i": 3,
+      "j": 5,
+      "id_i": "225618",
+      "id_j": "591818",
+      "bcr_i": "COASTAL_CALIFORNIA",
+      "bcr_j": "SONORAN_AND_MOJAVE_DESERTS",
+      "same_bcr": false,
+      "dtw": 0.05582343637827756
+    },
+    {
+      "i": 3,
+      "j": 6,
+      "id_i": "225618",
+      "id_j": "121701",
+      "bcr_i": "COASTAL_CALIFORNIA",
+      "bcr_j": "SONORAN_AND_MOJAVE_DESERTS",
+      "same_bcr": false,
+      "dtw": 0.044376797248873286
+    },
+    {
+      "i": 3,
+      "j": 7,
+      "id_i": "225618",
+      "id_j": "225617",
+      "bcr_i": "COASTAL_CALIFORNIA",
+      "bcr_j": "SONORAN_AND_MOJAVE_DESERTS",
+      "same_bcr": false,
+      "dtw": 0.05303207870460471
+    },
+    {
+      "i": 3,
+      "j": 8,
+      "id_i": "225618",
+      "id_j": "283691",
+      "bcr_i": "COASTAL_CALIFORNIA",
+      "bcr_j": "SONORAN_AND_MOJAVE_DESERTS",
+      "same_bcr": false,
+      "dtw": 0.05936489067667183
+    },
+    {
+      "i": 3,
+      "j": 9,
+      "id_i": "225618",
+      "id_j": "542596",
+      "bcr_i": "COASTAL_CALIFORNIA",
+      "bcr_j": "SONORAN_AND_MOJAVE_DESERTS",
+      "same_bcr": false,
+      "dtw": 0.05230330575427156
+    },
+    {
+      "i": 3,
+      "j": 10,
+      "id_i": "225618",
+      "id_j": "461612",
+      "bcr_i": "COASTAL_CALIFORNIA",
+      "bcr_j": "NEW_ENGLAND/MID-ATLANTIC_COAST",
+      "same_bcr": false,
+      "dtw": 0.07134472312259353
+    },
+    {
+      "i": 3,
+      "j": 11,
+      "id_i": "225618",
+      "id_j": "433075",
+      "bcr_i": "COASTAL_CALIFORNIA",
+      "bcr_j": "NEW_ENGLAND/MID-ATLANTIC_COAST",
+      "same_bcr": false,
+      "dtw": 0.12132125446144466
+    },
+    {
+      "i": 3,
+      "j": 12,
+      "id_i": "225618",
+      "id_j": "381583",
+      "bcr_i": "COASTAL_CALIFORNIA",
+      "bcr_j": "NEW_ENGLAND/MID-ATLANTIC_COAST",
+      "same_bcr": false,
+      "dtw": 0.07485947945096981
+    },
+    {
+      "i": 3,
+      "j": 13,
+      "id_i": "225618",
+      "id_j": "190476",
+      "bcr_i": "COASTAL_CALIFORNIA",
+      "bcr_j": "NEW_ENGLAND/MID-ATLANTIC_COAST",
+      "same_bcr": false,
+      "dtw": 0.14815812722273652
+    },
+    {
+      "i": 3,
+      "j": 14,
+      "id_i": "225618",
+      "id_j": "190448",
+      "bcr_i": "COASTAL_CALIFORNIA",
+      "bcr_j": "NEW_ENGLAND/MID-ATLANTIC_COAST",
+      "same_bcr": false,
+      "dtw": 0.08098532480310822
+    },
+    {
+      "i": 4,
+      "j": 5,
+      "id_i": "408093",
+      "id_j": "591818",
+      "bcr_i": "COASTAL_CALIFORNIA",
+      "bcr_j": "SONORAN_AND_MOJAVE_DESERTS",
+      "same_bcr": false,
+      "dtw": 0.06081467214939285
+    },
+    {
+      "i": 4,
+      "j": 6,
+      "id_i": "408093",
+      "id_j": "121701",
+      "bcr_i": "COASTAL_CALIFORNIA",
+      "bcr_j": "SONORAN_AND_MOJAVE_DESERTS",
+      "same_bcr": false,
+      "dtw": 0.07793295792684145
+    },
+    {
+      "i": 4,
+      "j": 7,
+      "id_i": "408093",
+      "id_j": "225617",
+      "bcr_i": "COASTAL_CALIFORNIA",
+      "bcr_j": "SONORAN_AND_MOJAVE_DESERTS",
+      "same_bcr": false,
+      "dtw": 0.08064604195858788
+    },
+    {
+      "i": 4,
+      "j": 8,
+      "id_i": "408093",
+      "id_j": "283691",
+      "bcr_i": "COASTAL_CALIFORNIA",
+      "bcr_j": "SONORAN_AND_MOJAVE_DESERTS",
+      "same_bcr": false,
+      "dtw": 0.0886303385968474
+    },
+    {
+      "i": 4,
+      "j": 9,
+      "id_i": "408093",
+      "id_j": "542596",
+      "bcr_i": "COASTAL_CALIFORNIA",
+      "bcr_j": "SONORAN_AND_MOJAVE_DESERTS",
+      "same_bcr": false,
+      "dtw": 0.06530069969330644
+    },
+    {
+      "i": 4,
+      "j": 10,
+      "id_i": "408093",
+      "id_j": "461612",
+      "bcr_i": "COASTAL_CALIFORNIA",
+      "bcr_j": "NEW_ENGLAND/MID-ATLANTIC_COAST",
+      "same_bcr": false,
+      "dtw": 0.07735502614114602
+    },
+    {
+      "i": 4,
+      "j": 11,
+      "id_i": "408093",
+      "id_j": "433075",
+      "bcr_i": "COASTAL_CALIFORNIA",
+      "bcr_j": "NEW_ENGLAND/MID-ATLANTIC_COAST",
+      "same_bcr": false,
+      "dtw": 0.07095545667542202
+    },
+    {
+      "i": 4,
+      "j": 12,
+      "id_i": "408093",
+      "id_j": "381583",
+      "bcr_i": "COASTAL_CALIFORNIA",
+      "bcr_j": "NEW_ENGLAND/MID-ATLANTIC_COAST",
+      "same_bcr": false,
+      "dtw": 0.1063219833487757
+    },
+    {
+      "i": 4,
+      "j": 13,
+      "id_i": "408093",
+      "id_j": "190476",
+      "bcr_i": "COASTAL_CALIFORNIA",
+      "bcr_j": "NEW_ENGLAND/MID-ATLANTIC_COAST",
+      "same_bcr": false,
+      "dtw": 0.21056618516584222
+    },
+    {
+      "i": 4,
+      "j": 14,
+      "id_i": "408093",
+      "id_j": "190448",
+      "bcr_i": "COASTAL_CALIFORNIA",
+      "bcr_j": "NEW_ENGLAND/MID-ATLANTIC_COAST",
+      "same_bcr": false,
+      "dtw": 0.12281100055172915
+    },
+    {
+      "i": 5,
+      "j": 6,
+      "id_i": "591818",
+      "id_j": "121701",
+      "bcr_i": "SONORAN_AND_MOJAVE_DESERTS",
+      "bcr_j": "SONORAN_AND_MOJAVE_DESERTS",
+      "same_bcr": true,
+      "dtw": 0.05379246675332904
+    },
+    {
+      "i": 5,
+      "j": 7,
+      "id_i": "591818",
+      "id_j": "225617",
+      "bcr_i": "SONORAN_AND_MOJAVE_DESERTS",
+      "bcr_j": "SONORAN_AND_MOJAVE_DESERTS",
+      "same_bcr": true,
+      "dtw": 0.0500666493983571
+    },
+    {
+      "i": 5,
+      "j": 8,
+      "id_i": "591818",
+      "id_j": "283691",
+      "bcr_i": "SONORAN_AND_MOJAVE_DESERTS",
+      "bcr_j": "SONORAN_AND_MOJAVE_DESERTS",
+      "same_bcr": true,
+      "dtw": 0.059298522367625756
+    },
+    {
+      "i": 5,
+      "j": 9,
+      "id_i": "591818",
+      "id_j": "542596",
+      "bcr_i": "SONORAN_AND_MOJAVE_DESERTS",
+      "bcr_j": "SONORAN_AND_MOJAVE_DESERTS",
+      "same_bcr": true,
+      "dtw": 0.06381481146001065
+    },
+    {
+      "i": 5,
+      "j": 10,
+      "id_i": "591818",
+      "id_j": "461612",
+      "bcr_i": "SONORAN_AND_MOJAVE_DESERTS",
+      "bcr_j": "NEW_ENGLAND/MID-ATLANTIC_COAST",
+      "same_bcr": false,
+      "dtw": 0.05659865799299075
+    },
+    {
+      "i": 5,
+      "j": 11,
+      "id_i": "591818",
+      "id_j": "433075",
+      "bcr_i": "SONORAN_AND_MOJAVE_DESERTS",
+      "bcr_j": "NEW_ENGLAND/MID-ATLANTIC_COAST",
+      "same_bcr": false,
+      "dtw": 0.0976628395881457
+    },
+    {
+      "i": 5,
+      "j": 12,
+      "id_i": "591818",
+      "id_j": "381583",
+      "bcr_i": "SONORAN_AND_MOJAVE_DESERTS",
+      "bcr_j": "NEW_ENGLAND/MID-ATLANTIC_COAST",
+      "same_bcr": false,
+      "dtw": 0.08489852835627593
+    },
+    {
+      "i": 5,
+      "j": 13,
+      "id_i": "591818",
+      "id_j": "190476",
+      "bcr_i": "SONORAN_AND_MOJAVE_DESERTS",
+      "bcr_j": "NEW_ENGLAND/MID-ATLANTIC_COAST",
+      "same_bcr": false,
+      "dtw": 0.1737858555490272
+    },
+    {
+      "i": 5,
+      "j": 14,
+      "id_i": "591818",
+      "id_j": "190448",
+      "bcr_i": "SONORAN_AND_MOJAVE_DESERTS",
+      "bcr_j": "NEW_ENGLAND/MID-ATLANTIC_COAST",
+      "same_bcr": false,
+      "dtw": 0.09522158399748877
+    },
+    {
+      "i": 6,
+      "j": 7,
+      "id_i": "121701",
+      "id_j": "225617",
+      "bcr_i": "SONORAN_AND_MOJAVE_DESERTS",
+      "bcr_j": "SONORAN_AND_MOJAVE_DESERTS",
+      "same_bcr": true,
+      "dtw": 0.05121852301695112
+    },
+    {
+      "i": 6,
+      "j": 8,
+      "id_i": "121701",
+      "id_j": "283691",
+      "bcr_i": "SONORAN_AND_MOJAVE_DESERTS",
+      "bcr_j": "SONORAN_AND_MOJAVE_DESERTS",
+      "same_bcr": true,
+      "dtw": 0.05427659605773383
+    },
+    {
+      "i": 6,
+      "j": 9,
+      "id_i": "121701",
+      "id_j": "542596",
+      "bcr_i": "SONORAN_AND_MOJAVE_DESERTS",
+      "bcr_j": "SONORAN_AND_MOJAVE_DESERTS",
+      "same_bcr": true,
+      "dtw": 0.0489175772669063
+    },
+    {
+      "i": 6,
+      "j": 10,
+      "id_i": "121701",
+      "id_j": "461612",
+      "bcr_i": "SONORAN_AND_MOJAVE_DESERTS",
+      "bcr_j": "NEW_ENGLAND/MID-ATLANTIC_COAST",
+      "same_bcr": false,
+      "dtw": 0.05916026177522798
+    },
+    {
+      "i": 6,
+      "j": 11,
+      "id_i": "121701",
+      "id_j": "433075",
+      "bcr_i": "SONORAN_AND_MOJAVE_DESERTS",
+      "bcr_j": "NEW_ENGLAND/MID-ATLANTIC_COAST",
+      "same_bcr": false,
+      "dtw": 0.11441051080055324
+    },
+    {
+      "i": 6,
+      "j": 12,
+      "id_i": "121701",
+      "id_j": "381583",
+      "bcr_i": "SONORAN_AND_MOJAVE_DESERTS",
+      "bcr_j": "NEW_ENGLAND/MID-ATLANTIC_COAST",
+      "same_bcr": false,
+      "dtw": 0.07873298328346359
+    },
+    {
+      "i": 6,
+      "j": 13,
+      "id_i": "121701",
+      "id_j": "190476",
+      "bcr_i": "SONORAN_AND_MOJAVE_DESERTS",
+      "bcr_j": "NEW_ENGLAND/MID-ATLANTIC_COAST",
+      "same_bcr": false,
+      "dtw": 0.1318997404159578
+    },
+    {
+      "i": 6,
+      "j": 14,
+      "id_i": "121701",
+      "id_j": "190448",
+      "bcr_i": "SONORAN_AND_MOJAVE_DESERTS",
+      "bcr_j": "NEW_ENGLAND/MID-ATLANTIC_COAST",
+      "same_bcr": false,
+      "dtw": 0.07544331326420169
+    },
+    {
+      "i": 7,
+      "j": 8,
+      "id_i": "225617",
+      "id_j": "283691",
+      "bcr_i": "SONORAN_AND_MOJAVE_DESERTS",
+      "bcr_j": "SONORAN_AND_MOJAVE_DESERTS",
+      "same_bcr": true,
+      "dtw": 0.05192150306260567
+    },
+    {
+      "i": 7,
+      "j": 9,
+      "id_i": "225617",
+      "id_j": "542596",
+      "bcr_i": "SONORAN_AND_MOJAVE_DESERTS",
+      "bcr_j": "SONORAN_AND_MOJAVE_DESERTS",
+      "same_bcr": true,
+      "dtw": 0.0544914221028202
+    },
+    {
+      "i": 7,
+      "j": 10,
+      "id_i": "225617",
+      "id_j": "461612",
+      "bcr_i": "SONORAN_AND_MOJAVE_DESERTS",
+      "bcr_j": "NEW_ENGLAND/MID-ATLANTIC_COAST",
+      "same_bcr": false,
+      "dtw": 0.05377745499079514
+    },
+    {
+      "i": 7,
+      "j": 11,
+      "id_i": "225617",
+      "id_j": "433075",
+      "bcr_i": "SONORAN_AND_MOJAVE_DESERTS",
+      "bcr_j": "NEW_ENGLAND/MID-ATLANTIC_COAST",
+      "same_bcr": false,
+      "dtw": 0.11806520044456022
+    },
+    {
+      "i": 7,
+      "j": 12,
+      "id_i": "225617",
+      "id_j": "381583",
+      "bcr_i": "SONORAN_AND_MOJAVE_DESERTS",
+      "bcr_j": "NEW_ENGLAND/MID-ATLANTIC_COAST",
+      "same_bcr": false,
+      "dtw": 0.08495957525246325
+    },
+    {
+      "i": 7,
+      "j": 13,
+      "id_i": "225617",
+      "id_j": "190476",
+      "bcr_i": "SONORAN_AND_MOJAVE_DESERTS",
+      "bcr_j": "NEW_ENGLAND/MID-ATLANTIC_COAST",
+      "same_bcr": false,
+      "dtw": 0.16029239781335922
+    },
+    {
+      "i": 7,
+      "j": 14,
+      "id_i": "225617",
+      "id_j": "190448",
+      "bcr_i": "SONORAN_AND_MOJAVE_DESERTS",
+      "bcr_j": "NEW_ENGLAND/MID-ATLANTIC_COAST",
+      "same_bcr": false,
+      "dtw": 0.07396547123702556
+    },
+    {
+      "i": 8,
+      "j": 9,
+      "id_i": "283691",
+      "id_j": "542596",
+      "bcr_i": "SONORAN_AND_MOJAVE_DESERTS",
+      "bcr_j": "SONORAN_AND_MOJAVE_DESERTS",
+      "same_bcr": true,
+      "dtw": 0.04225926059937566
+    },
+    {
+      "i": 8,
+      "j": 10,
+      "id_i": "283691",
+      "id_j": "461612",
+      "bcr_i": "SONORAN_AND_MOJAVE_DESERTS",
+      "bcr_j": "NEW_ENGLAND/MID-ATLANTIC_COAST",
+      "same_bcr": false,
+      "dtw": 0.06611729894178558
+    },
+    {
+      "i": 8,
+      "j": 11,
+      "id_i": "283691",
+      "id_j": "433075",
+      "bcr_i": "SONORAN_AND_MOJAVE_DESERTS",
+      "bcr_j": "NEW_ENGLAND/MID-ATLANTIC_COAST",
+      "same_bcr": false,
+      "dtw": 0.13482344593664097
+    },
+    {
+      "i": 8,
+      "j": 12,
+      "id_i": "283691",
+      "id_j": "381583",
+      "bcr_i": "SONORAN_AND_MOJAVE_DESERTS",
+      "bcr_j": "NEW_ENGLAND/MID-ATLANTIC_COAST",
+      "same_bcr": false,
+      "dtw": 0.08436530529227364
+    },
+    {
+      "i": 8,
+      "j": 13,
+      "id_i": "283691",
+      "id_j": "190476",
+      "bcr_i": "SONORAN_AND_MOJAVE_DESERTS",
+      "bcr_j": "NEW_ENGLAND/MID-ATLANTIC_COAST",
+      "same_bcr": false,
+      "dtw": 0.17724686263163533
+    },
+    {
+      "i": 8,
+      "j": 14,
+      "id_i": "283691",
+      "id_j": "190448",
+      "bcr_i": "SONORAN_AND_MOJAVE_DESERTS",
+      "bcr_j": "NEW_ENGLAND/MID-ATLANTIC_COAST",
+      "same_bcr": false,
+      "dtw": 0.06081298212703836
+    },
+    {
+      "i": 9,
+      "j": 10,
+      "id_i": "542596",
+      "id_j": "461612",
+      "bcr_i": "SONORAN_AND_MOJAVE_DESERTS",
+      "bcr_j": "NEW_ENGLAND/MID-ATLANTIC_COAST",
+      "same_bcr": false,
+      "dtw": 0.07269838416525386
+    },
+    {
+      "i": 9,
+      "j": 11,
+      "id_i": "542596",
+      "id_j": "433075",
+      "bcr_i": "SONORAN_AND_MOJAVE_DESERTS",
+      "bcr_j": "NEW_ENGLAND/MID-ATLANTIC_COAST",
+      "same_bcr": false,
+      "dtw": 0.11151096983533644
+    },
+    {
+      "i": 9,
+      "j": 12,
+      "id_i": "542596",
+      "id_j": "381583",
+      "bcr_i": "SONORAN_AND_MOJAVE_DESERTS",
+      "bcr_j": "NEW_ENGLAND/MID-ATLANTIC_COAST",
+      "same_bcr": false,
+      "dtw": 0.06401863850478114
+    },
+    {
+      "i": 9,
+      "j": 13,
+      "id_i": "542596",
+      "id_j": "190476",
+      "bcr_i": "SONORAN_AND_MOJAVE_DESERTS",
+      "bcr_j": "NEW_ENGLAND/MID-ATLANTIC_COAST",
+      "same_bcr": false,
+      "dtw": 0.13839809298067993
+    },
+    {
+      "i": 9,
+      "j": 14,
+      "id_i": "542596",
+      "id_j": "190448",
+      "bcr_i": "SONORAN_AND_MOJAVE_DESERTS",
+      "bcr_j": "NEW_ENGLAND/MID-ATLANTIC_COAST",
+      "same_bcr": false,
+      "dtw": 0.059040173116712544
+    },
+    {
+      "i": 10,
+      "j": 11,
+      "id_i": "461612",
+      "id_j": "433075",
+      "bcr_i": "NEW_ENGLAND/MID-ATLANTIC_COAST",
+      "bcr_j": "NEW_ENGLAND/MID-ATLANTIC_COAST",
+      "same_bcr": true,
+      "dtw": 0.0760467546169889
+    },
+    {
+      "i": 10,
+      "j": 12,
+      "id_i": "461612",
+      "id_j": "381583",
+      "bcr_i": "NEW_ENGLAND/MID-ATLANTIC_COAST",
+      "bcr_j": "NEW_ENGLAND/MID-ATLANTIC_COAST",
+      "same_bcr": true,
+      "dtw": 0.09458048457327552
+    },
+    {
+      "i": 10,
+      "j": 13,
+      "id_i": "461612",
+      "id_j": "190476",
+      "bcr_i": "NEW_ENGLAND/MID-ATLANTIC_COAST",
+      "bcr_j": "NEW_ENGLAND/MID-ATLANTIC_COAST",
+      "same_bcr": true,
+      "dtw": 0.1786886170430628
+    },
+    {
+      "i": 10,
+      "j": 14,
+      "id_i": "461612",
+      "id_j": "190448",
+      "bcr_i": "NEW_ENGLAND/MID-ATLANTIC_COAST",
+      "bcr_j": "NEW_ENGLAND/MID-ATLANTIC_COAST",
+      "same_bcr": true,
+      "dtw": 0.1064209659797174
+    },
+    {
+      "i": 11,
+      "j": 12,
+      "id_i": "433075",
+      "id_j": "381583",
+      "bcr_i": "NEW_ENGLAND/MID-ATLANTIC_COAST",
+      "bcr_j": "NEW_ENGLAND/MID-ATLANTIC_COAST",
+      "same_bcr": true,
+      "dtw": 0.16934670467585458
+    },
+    {
+      "i": 11,
+      "j": 13,
+      "id_i": "433075",
+      "id_j": "190476",
+      "bcr_i": "NEW_ENGLAND/MID-ATLANTIC_COAST",
+      "bcr_j": "NEW_ENGLAND/MID-ATLANTIC_COAST",
+      "same_bcr": true,
+      "dtw": 0.24877840056839193
+    },
+    {
+      "i": 11,
+      "j": 14,
+      "id_i": "433075",
+      "id_j": "190448",
+      "bcr_i": "NEW_ENGLAND/MID-ATLANTIC_COAST",
+      "bcr_j": "NEW_ENGLAND/MID-ATLANTIC_COAST",
+      "same_bcr": true,
+      "dtw": 0.1887977028226316
+    },
+    {
+      "i": 12,
+      "j": 13,
+      "id_i": "381583",
+      "id_j": "190476",
+      "bcr_i": "NEW_ENGLAND/MID-ATLANTIC_COAST",
+      "bcr_j": "NEW_ENGLAND/MID-ATLANTIC_COAST",
+      "same_bcr": true,
+      "dtw": 0.19505437253515714
+    },
+    {
+      "i": 12,
+      "j": 14,
+      "id_i": "381583",
+      "id_j": "190448",
+      "bcr_i": "NEW_ENGLAND/MID-ATLANTIC_COAST",
+      "bcr_j": "NEW_ENGLAND/MID-ATLANTIC_COAST",
+      "same_bcr": true,
+      "dtw": 0.059237954102483996
+    },
+    {
+      "i": 13,
+      "j": 14,
+      "id_i": "190476",
+      "id_j": "190448",
+      "bcr_i": "NEW_ENGLAND/MID-ATLANTIC_COAST",
+      "bcr_j": "NEW_ENGLAND/MID-ATLANTIC_COAST",
+      "same_bcr": true,
+      "dtw": 0.17951398279507197
+    }
+  ],
+  "ran_at": "2026-05-18 06:56:48"
+}
